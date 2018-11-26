@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'Amatic SC';font-size: 100px;
+}
+.container1 {
+   overflow: hidden;
+}
+.container1:before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  background-image: url('images.jpg/wallpapertrial.jpg');
+}
+.container1 h1 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: black;
+}
+.container1 p {
+  padding: 50px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  color: black;
+}
+.form button {
+  color: white;
+  background: #6495ED;
+  border-color: #6495ED;
+  padding: 20px;
+  align: center;
+}
+#social-buttons button{
+  color:white;
+  text-align: center;
+  padding: 10px;
+  align: center;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314775;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+}
+#mission {
+  background: rgba(32,35,41,0.9);
+  color: #ddd;
+}
+body {
+   padding-top: 50px 0;
+   background-color: #ccffe6;
+ }
