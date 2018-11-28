@@ -1,5 +1,8 @@
 h1 {
-    font-family: 'Amatic SC';font-size: 100px;
+    font-family: 'Amatic SC';font-size: 100px; font-weight: semibold;
+}
+h2 {
+    font-family: 'Amatic SC';font-size: 80px; font-weight: lighter;
 }
 .container1 {
    overflow: hidden;
@@ -36,6 +39,7 @@ h1 {
   border-color: #6495ED;
   padding: 20px;
   align: center;
+  top: auto;
 }
 #social-buttons button{
   color:white;
@@ -63,3 +67,24 @@ body {
    padding-top: 50px 0;
    background-color: #ccffe6;
  }
+.navbar {
+  background: #ffffff;
+  text-align: right;
+          }
+.container1 h2 {
+              padding: 50px;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+              color: black;
+}
+.container1 iframe {
+            position: relative;
+            left: 410px;
+            top: 50px;
+}
+.container3 {
+  padding: 60px;
+  z-index: 2;
+  position: relative;
+}
