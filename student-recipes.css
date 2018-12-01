@@ -4,6 +4,17 @@ h1 {
 h2 {
     font-family: 'Amatic SC';font-size: 80px; font-weight: lighter;
 }
+h3 {
+    font-family: 'Amatic SC';font-size: 50px; font-weight: normal;
+}
+
+h4 {
+    font-family: 'Amatic SC';font-size: 40px; font-weight: lighter;
+}
+
+li {
+  font-family:'Al bayan';font-size: 15px; font-weight: lighter; padding: 6px;
+}
 .container1 {
    overflow: hidden;
    position: relative;
@@ -106,4 +117,11 @@ body {
      color: black;
      text-align: center;
      top: 280px;
+ }
+ .containerTomato {
+   background-image: url(cherry-tomatoes-delicious-food-7765.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 30%
+
  }
