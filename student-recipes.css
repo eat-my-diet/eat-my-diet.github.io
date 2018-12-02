@@ -13,7 +13,7 @@ h4 {
 }
 
 li {
-  font-family:'Al bayan';font-size: 15px; font-weight: lighter; padding: 6px;
+  font-family:'Aclonica';font-size: 15px; font-weight: lighter; padding: 6px;
 }
 .container1 {
    overflow: hidden;
@@ -62,7 +62,7 @@ li {
 .btn-twitter {
   background: #00acee;
   border-color: #009ad5;
-  
+
 }
 .btn-facebook {
   background: #4868ac;
@@ -86,7 +86,7 @@ body {
           }
 
 .navbar-brand{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Aclonica';
 }
 .container1 h2 {
@@ -136,5 +136,16 @@ body {
   flex-direction: row | row-reverse | column | column-reverse;
 
  }
+ thead {
+   font-family: 'Aclonica';
+   font-size: 20px;
+   color: #f59563;
+ }
+ th {
+   font-family: 'Aclonica';
+   font-size: 17px;
+   color: #f59563;
+ }
+
 =======
 >>>>>>> e8f358fd8a469f2dc99a892f4d86136d5c4770d0
