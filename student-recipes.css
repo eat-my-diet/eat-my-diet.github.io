@@ -20,6 +20,11 @@ li {
    position: relative;
    top: 600px;
 }
+.containeryummy {
+   overflow: hidden;
+   position: relative;
+   top: 600px;
+}
 .container1:before {
   content: ' ';
   position: absolute;
@@ -90,6 +95,13 @@ body {
     font-family: 'Aclonica';
 }
 .container1 h2 {
+              padding: 50px;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+              color: black;
+}
+.containeryummy h2 {
               padding: 50px;
               text-align: center;
               z-index: 2;
