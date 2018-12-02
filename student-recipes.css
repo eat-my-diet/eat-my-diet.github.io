@@ -83,6 +83,11 @@ body {
   background: #ffffff;
   text-align: right;
           }
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: cursive;
+}
 .container1 h2 {
               padding: 50px;
               text-align: center;
