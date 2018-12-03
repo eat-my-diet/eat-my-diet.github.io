@@ -20,12 +20,16 @@ li {
    position: relative;
    top: 600px;
 }
+<<<<<<< HEAD
 #HL{
   overflow: hidden;
   position: relative;
   top: 600px;
 }
 #yummy {
+=======
+.containeryummy {
+>>>>>>> parent of bfb0eb6... updating
    overflow: hidden;
    position: relative;
    top: 600px;
@@ -156,6 +160,8 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: 30%
+<<<<<<< HEAD
+
  }
  .table {
   flex-direction: row | row-reverse | column | column-reverse;
@@ -171,6 +177,6 @@ body {
    font-size: 17px;
    color: #f59563;
  }
-#row {
-  width: 100px;
-}
+
+=======
+>>>>>>> e8f358fd8a469f2dc99a892f4d86136d5c4770d0
