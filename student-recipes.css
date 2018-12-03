@@ -1,3 +1,4 @@
+
 h1 {
     font-family: 'Amatic SC';font-size: 150px; font-weight: semibold;
 }
@@ -142,12 +143,6 @@ body {
    background-repeat: no-repeat;
    background-size: 30%
 <<<<<<< HEAD
-}
-.btn btn-success {
-  height: 10px;
-}
-=======
-<<<<<<< HEAD
 
  }
  .table {
@@ -170,4 +165,3 @@ body {
 
 =======
 >>>>>>> e8f358fd8a469f2dc99a892f4d86136d5c4770d0
->>>>>>> fcccc4df376bf0ba0abcdd10b2429508e141a5c4
