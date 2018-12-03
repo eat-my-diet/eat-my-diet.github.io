@@ -118,7 +118,7 @@ body {
   z-index: 2;
   position: relative;
 }
-.containers {
+.container3 {
    background-image: url(dish-918613_960_720.jpg);
    background-size: 120%;
    background-position: bottom;
@@ -164,6 +164,9 @@ body {
    font-size: 17px;
    color: #f59563;
  }
+@media only screen and (max-width: 900px) {
+  body{ font-size: 12px}
+}
 
 =======
 >>>>>>> e8f358fd8a469f2dc99a892f4d86136d5c4770d0
