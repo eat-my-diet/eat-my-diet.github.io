@@ -9,7 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="student-recipes.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta charset="utf-8">
@@ -18,21 +18,19 @@
 
 <body>
 
- <nav class="navbar navbar-light navbar-fixed-top">
-   <div class="container">
-     <div class="navbar-header">
-       <a class="navbar-brand" href="#">EAT MY DIET</a>
+ <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+      <a class="navbar-brand" href="#">EAT MY DIET</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav">
+         <li class="nav-item active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+         <li class="nav-item"><a class="nav-link ye-menubar" href="#yummy">YUMMY ENTRÉES</a></li>
+         <li class="nav-item"><a class="nav-link hl-menubar" href="#">HEALTHY LUNCHES</a></li>
+         <li class="nav-item"><a class="nav-link dd-menubar" href="#">DELICIOUS DESERTS</a></li>
+         <li class="nav-item"><a class= "nav-link s-menubar" href='#'>STUDENTS</a></li>
+         <li class="nav-item"><a class= "nav-link yi-menubar" href="#">YOUR IDEAS!</a></li>
+       </ul>
      </div>
-     <ul class="nav navbar-nav">
-       <li class="active"><a href="#">HOME</a></li>
-       <li><a class="ye menubar" href="#">YUMMY ENTRÉES</a></li>
-       <li><a class="hl menubar" href="#">HEALTHY LUNCHES</a></li>
-       <li><a class="dd menubar" href="#">DELICIOUS DESERTS</a></li>
-       <li><a class= "s menubar" href='#'>STUDENTS</a></li>
-       <li><a class= "yi menubar" href="page1.html">YOUR IDEAS!</a></li>
 
-     </ul>
-   </div>
  </nav>
 
   <div class="container3">
@@ -60,22 +58,18 @@
     </div>
 
 
-    <div class="head">
-      <div class="containeryummy">
+    <div class="head" id="yummy">
         <h2> Yummy Entrées </h2>
-        <table class="table table-bordered">
-          <thead class="thead-light">
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">Ingredients</th>
-              <th scope="col">Method</th>
-              <th scope="col"></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Rockmelon bruschetta with goat's cheese and prosciutto</th>
-              <td>
+        <div class="container">
+              <div class="row">
+              <div scope="col" class="col-3"></div>
+              <div  scope="col" class="col-3">Ingredients</div>
+              <div  scope="col" class="col-3">Method</div>
+              <div scope="col" class="col-3"></div>
+            </div>
+            <div  class="row">
+              <div scope="row" class="col-3">Rockmelon bruschetta with goat's cheese and prosciutto</div>
+              <div class="col-3">
                 <ul>
                 <li>150g goat's cheese, at room temperature</li>
                 <li>1/2 teaspoon finely grated orange rind</li>
@@ -86,18 +80,18 @@
                 <li>Honey, to serve</li>
                 <li>Fresh mint leaves, to serve</li>
               </ul>
-            </td>
-              <td>
+            </div>
+              <div class="col-3">
                 <ol>
                 <li>Combine the goat's cheese, orange rind and lemon rind in a bowl. Season.</li>
                 <li>Spread goat's cheese mixture over bread. Top with prosciutto and rockmelon. Drizzle over the honey. Season with pepper and sprinkle with mint.</li>
               </ol>
-            </td>
-              <td> <img src="rockmelon-bruschetta-with-goats-cheese-and-prosciutto-70235-1.jpeg" width="400px"> </td>
-            </tr>
-            <tr>
-              <th scope="row">Tomato and Mozzarella</th>
-              <td>
+            </div>
+              <div class="col-3"> <img src="rockmelon-bruschetta-with-goats-cheese-and-prosciutto-70235-1.jpeg" width="400"> </div>
+            </div>
+            <div  class="row">
+              <div scope="row" class="col-3">Tomato and Mozzarella</div>
+              <div class="col-3">
                 <ul>
                 <li>Cherry Tomatoes</li>
                 <li>"Bite size" Mozzarella</li>
@@ -105,37 +99,35 @@
                 <li>Olive oil</li>
                 <li>Black pepper</li>
               </ul>
-            </td>
-              <td>
+            </div>
+              <div class="col-3">
                 <ol>
                   <li>Combine the ingredients</li>
                   <li>Season with pepper and add plenty of olive oil</li>
                 </ol>
-              </td>
-              <td><img src="cherry-tomatoes-delicious-food-7765.jpg" width="400px"></td>
-            </tr>
-          </tbody>
-        </table>
-
-      </div>
+              </div>
+              <div class="col-3"><img src="cherry-tomatoes-delicious-food-7765.jpg" width="400"></div>
+            </div>
+        </div>
     </div>
 
-    <div class="head">
-      <div class="container1">
-        <h2> Healthy Lunches </h2>
+    <div class="head" id="HealthyLunches">
+
+      <h2> Healthy Lunches </h2>
+
+      <div class="container">
         <table class="table table-bordered">
-          <thead class="thead-light">
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">Ingredients</th>
-              <th scope="col">Method</th>
-              <th scope="col"></th>
+
+            <tr class="row">
+              <th scope="col" class="col-3"></th>
+              <th scope="col" class="col-3">Ingredients</th>
+              <th scope="col" class="col-3">Method</th>
+              <th scope="col" class="col-3"></th>
             </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Baked sweet potatoes with steak fajita filling</th>
-              <td>
+
+            <tr class="row">
+              <th class="col-3">Baked sweet potatoes with steak fajita filling</th>
+              <td class="col-3">
                 <ul>
                 <li>4 sweet potatoes</li>
                 <li>2 tbsp live oil, plus extra to rub on the potatoes</li>
@@ -150,7 +142,7 @@
                 <li>2 avocados, halved, stoned and peeled</li>
               </ul>
             </td>
-              <td>
+              <td class="col-3">
                 <ol>
                 <li>Heat oven to 220C/200C fan/gas 7. Wash the sweet potatoes, prick them with a fork all over, then rub with a little olive oil and season generously. Wrap each potato in tin foil and bake on a baking tray for 45-55 mins until soft.</li>
                 <li>To make the marinade, put the lime juice, chilli powder, garlic powder, cumin, 1 tbsp olive oil and a generous pinch of seasoning in a bowl. Mix everything together, then pour half the marinade into a second bowl. Add the steak to one of the bowls and mix well. Add the onions and peppers to the other bowl and mix to ensure everything is evenly coated. Cover both bowls in cling film and chill in the fridge until needed.</li>
@@ -158,11 +150,11 @@
                 <li>Mash the avocado in a bowl with a fork. Add a good pinch of salt and the rest of the coriander.</li>
                 <li>To serve, halve each sweet potato lengthways, mash the insides with a fork, then top with a spoonful of the steak fajita mixture and a dollop of mashed avocado. Enjoy!</li>
             </td>
-              <td> <img src="baked-sweet-potato.jpg" width="400px"> </td>
+              <td class="col-3"> <img src="baked-sweet-potato.jpg" style="width:100%"> </td>
             </tr>
-            <tr>
-              <th scope="row">Chipotle chicken wraps</th>
-              <td>
+            <tr class="row">
+              <th class="col-3">Chipotle chicken wraps</th>
+              <td class="col-3">
                 <ul>
                 <li>1 tbsp vegetable oil</li>
                 <li>1 onion, finely sliced</li>
@@ -177,16 +169,15 @@
                 <li>1 lime, halved</li>
               </ul>
             </td>
-              <td>
+              <td class="col-3">
                 <ol>
                   <li>Heat the oil in a frying pan over a low-medium heat. Toss in the onion and cook for 10 mins until softened. Crush in the garlic and stir for 1 min before adding the chicken. Turn up the heat and brown the chicken all over. Spoon over the chipotle and stir to coat for 1 min. Pour in the tomatoes and bring to the boil. Season well and reduce the heat to a gentle simmer.</li>
                   <li>Cook for 5-6 mins or until the chicken is cooked through and any excess liquid has evaporated. Stir the beans through until warmed, then remove from the heat. Warm the wraps following pack instructions.</li>
                   <li>Divide the mix between the wraps, top with the avocado and shredded lettuce, and squeeze over the lime. Roll up and cut in half before serving.</li>
                 </ol>
               </td>
-              <td><img src="chipotle-chicken-wraps.jpg" width="400px"></td>
+              <td class="col-3"><img src="chipotle-chicken-wraps.jpg" style="width:100%" ></td>
             </tr>
-          </tbody>
         </table>
       </div>
 
@@ -229,7 +220,7 @@
                 <li>Pour the chocolate mixture into the chilled pie crust and spread into an even layer. Gently press the marshmallows into the chocolate filling, covering the top of the pie with marshmallows. Chill the pie briefly (30 minutes to 1 hour) to allow the chocolate the set. When ready to serve, use a kitchen torch to toast the marshmallows. The pie can be kept at room temperature as long as it’s not warmer than about 72 degrees. If your kitchen is warmer than that, then I would refrigerate the pie so the chocolate filling doesn’t melt.</li>
                 </ol>
             </td>
-              <td> <img src="smores-pie-34-600.jpeg" width="400px"> </td>
+              <td> <img src="smores-pie-34-600.jpeg" style="width:100%"> </td>
             </tr>
             <tr>
               <th scope="row">Gooey Pecan Pie Biscuits</th>
@@ -260,11 +251,11 @@
         <h2> Students </h2>
         <table class="table table-bordered">
           <thead class="thead-light">
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">Ingredients</th>
-              <th scope="col">Method</th>
-              <th scope="col"></th>
+            <tr class="row">
+              <th scope="col" class="col-3"></th>
+              <th scope="col" class="col-3">Ingredients</th>
+              <th scope="col" class="col-3">Method</th>
+              <th scope="col" class="col-3"></th>
             </tr>
           </thead>
           <tbody>
@@ -314,13 +305,5 @@
       </div>
     </div>
 
-    <div class="head">
-      <div class="container1">
-        <h2> Your ideas </h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdxsk2-qVplgVSxOYtNj84JMuceHnx13heT1-ufwWcGK3ix8g/viewform?embedded=true" width="640" height="1324" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-      </div>
 
-    </div>
-
-  <script src="java.js"></script>
 </body>
