@@ -15,7 +15,7 @@ h4 {
 li {
   font-family:'Aclonica';font-size: 15px; font-weight: lighter; padding: 6px;
 }
-.container1 {
+.container {
    overflow: hidden;
    position: relative;
    top: 600px;
@@ -23,24 +23,23 @@ li {
 #HL{
   overflow: hidden;
   position: relative;
-  top: 600px;
+
 }
 #yummy {
    overflow: hidden;
    position: relative;
-   top: 600px;
 }
 #DD {
    overflow: hidden;
    position: relative;
-   top: 600px;
+
 }
 #S {
    overflow: hidden;
    position: relative;
-   top: 600px;
+
 }
-.container1:before {
+.container:before {
   content: ' ';
   position: absolute;
   left: 0;
@@ -51,14 +50,32 @@ li {
   opacity: 0.8;
   filter: alpha(opacity=50);
 }
-.container1 h1 {
+#cont5:before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+.container h1 {
     padding: 50px;
     text-align: center;
     z-index: 2;
     position: relative;
     color: black;
 }
-.container1 p {
+#cont5 h1 {
+   padding: 50px;
+   text-align: center;
+   z-index: 2;
+   position: relative;
+   color: black;
+}
+.container p {
   padding: 50px;
   text-align: center;
   z-index: 2;
@@ -109,54 +126,53 @@ body {
     font-size: 25px;
     font-family: 'Aclonica';
 }
-.container1 h2 {
+.container h2 {
               padding: 50px;
               text-align: center;
               z-index: 2;
               position: relative;
               color: black;
 }
-.containeryummy h2 {
+#cont5 h2 {
               padding: 50px;
               text-align: center;
               z-index: 2;
               position: relative;
               color: black;
 }
-.container1 iframe {
+#yummy h2 {
+              padding: 50px;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+              color: black;
+}
+.container iframe {
             position: relative;
             left: 410px;
             top: 50px;
 }
-.container3 {
+.container {
   padding: 60px;
   z-index: 2;
   position: relative;
 }
-.container3 {
+
+#cont5 {
    background-image: url(dish-918613_960_720.jpg);
    background-size: 120%;
    background-position: bottom;
    position: absolute;
    height: 850px;
    width: 1440px;
+   padding: 60px;
+   z-index: 2;
+   position: relative;
+   overflow: hidden;
+   position: relative;
+ }
 
- }
- .container5 h1 {
-     padding: 50px;
-     text-align: center;
-     z-index: 2;
-     position: relative;
-     color: black;
-     text-align: center;
-     top: 280px;
- }
- .containerTomato {
-   background-image: url(cherry-tomatoes-delicious-food-7765.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 30%
- }
+
  .table {
   flex-direction: row | row-reverse | column | column-reverse;
 
@@ -171,6 +187,3 @@ body {
    font-size: 17px;
    color: #f59563;
  }
-#row {
-  width: 100px;
-}
