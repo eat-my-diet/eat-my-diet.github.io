@@ -20,12 +20,17 @@ li {
    position: relative;
    top: 600px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 #HL{
   overflow: hidden;
   position: relative;
 
 }
 #yummy {
+=======
+.containeryummy {
+>>>>>>> parent of bfb0eb6... updating
    overflow: hidden;
    position: relative;
 }
@@ -40,6 +45,8 @@ li {
 
 }
 .container:before {
+.container1:before {
+>>>>>>> 9d38cc8e29ba082e255b1402b28043767cc4f8d1
   content: ' ';
   position: absolute;
   left: 0;
@@ -110,12 +117,12 @@ li {
   border-color: #b62f26;
 }
 #mission {
-  background:#00b8e6;
+  background: rgba(32,35,41,0.9);
   color: #ddd;
 }
 body {
    padding-top: 50px 0;
-   background-color: #80e5ff;
+   background-color: #ccffe6;
  }
 .navbar {
   background: #ffffff;
@@ -187,3 +194,4 @@ body {
    font-size: 17px;
    color: #f59563;
  }
+>>>>>>> 9d38cc8e29ba082e255b1402b28043767cc4f8d1
