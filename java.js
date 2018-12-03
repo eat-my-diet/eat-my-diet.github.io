@@ -1,3 +1,3 @@
 $('.ye menubar').on('click', function(){
-  $('.containeryummy').hide();
-});
+  $(hide('.containeryummy')
+}
