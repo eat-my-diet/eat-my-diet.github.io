@@ -20,7 +20,12 @@ li {
    position: relative;
    top: 600px;
 }
-.containeryummy {
+#HealthyLunches{
+  overflow: hidden;
+  position: relative;
+  top: 600px;
+}
+#yummy {
    overflow: hidden;
    position: relative;
    top: 600px;
@@ -141,8 +146,6 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: 30%
-<<<<<<< HEAD
-
  }
  .table {
   flex-direction: row | row-reverse | column | column-reverse;
@@ -158,6 +161,6 @@ body {
    font-size: 17px;
    color: #f59563;
  }
-
-=======
->>>>>>> e8f358fd8a469f2dc99a892f4d86136d5c4770d0
+#row {
+  width: 100px;
+}
