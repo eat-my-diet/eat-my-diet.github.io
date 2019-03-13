@@ -16,7 +16,20 @@ def dd():
 @app.route("/students")
 def students():
     return render_template("students.html")
-@app.route("/ideas")
-def ideas():
-    return render_template("page1.html")
+
+@app.route('/')
+def hello(name=None):
+    return render_template('index.html', name=name)
+
+
+@app.route("/feedback", methods=["POST"])
+def get_feeback():
+    # request.values is a dictionary holding any
+    # POST request data that's not already part of the URL
+    data = request.values
+
+    return render_template("feedback.html", form_data=data)
+
+
+
 app.run(debug=True)

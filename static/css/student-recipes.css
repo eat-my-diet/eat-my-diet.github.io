@@ -123,7 +123,7 @@ body {
 }
 
 .container3 {
-   background-image: url('../images/dish-918613_960_720.jpg');
+   background-image:url("{{ url_for('static', filename='images/dish-918613_960_720.jpg')}}");
    background-size: 120%;
    background-position: bottom;
    position: absolute;
@@ -155,3 +155,7 @@ body {
    font-size: 17px;
    color: #f59563;
  }
+.container6 {
+  padding: 50px;
+  top: 60px;
+}

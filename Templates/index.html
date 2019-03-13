@@ -20,19 +20,17 @@
   {% include "header.html" %}
   <div class="container3">
 
-    <div class="form">
-      <form role='form'>
-        <label for="email">Find out more</label>
-        <input type="text" name="email" >
-        <button class="btn btn-success" type="submit">Send</button>
-      </form>
-    </div>
 
-    <div id="social-buttons">
-      <button class="btn-twitter">Twitter</button>
-      <button class="btn-facebook">Facebook</button>
-      <button class="btn-pinterest">Pinterest</button>
-    </div>
+      <form action="/feedback" method="post">
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name">
+
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email">
+
+          <input type="submit" value="Send!">
+      </form>
+
 </div>
 
     <div class="head">
