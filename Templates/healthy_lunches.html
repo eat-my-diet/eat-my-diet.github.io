@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% include "header.html" %}
+<p>
+  <div class="head">
+    <div class="container1" id="healthy-lunches">
+      <h2> Healthy Lunches </h2>
+      <table class="table table-bordered">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Ingredients</th>
+            <th scope="col">Method</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Baked sweet potatoes with steak fajita filling</th>
+            <td>
+              <ul>
+              <li>4 sweet potatoes</li>
+              <li>2 tbsp live oil, plus extra to rub on the potatoes</li>
+              <li>juice 1 lime</li>
+              <li>2 tsp chilli powder</li>
+              <li>1 tsp garlic powder</li>
+              <li>1 tsp ground cumin</li>
+              <li>500g lean beef steak, cut into medium-sized strips</li>
+              <li>2 onions, thinly sliced</li>
+              <li>a mixture of 4 orange, yellow and red peppers, thinly sliced</li>
+              <li>small handful coriander, chopped</li>
+              <li>2 avocados, halved, stoned and peeled</li>
+            </ul>
+          </td>
+            <td>
+              <ol>
+              <li>Heat oven to 220C/200C fan/gas 7. Wash the sweet potatoes, prick them with a fork all over, then rub with a little olive oil and season generously. Wrap each potato in tin foil and bake on a baking tray for 45-55 mins until soft.</li>
+              <li>To make the marinade, put the lime juice, chilli powder, garlic powder, cumin, 1 tbsp olive oil and a generous pinch of seasoning in a bowl. Mix everything together, then pour half the marinade into a second bowl. Add the steak to one of the bowls and mix well. Add the onions and peppers to the other bowl and mix to ensure everything is evenly coated. Cover both bowls in cling film and chill in the fridge until needed.</li>
+              <li>When the sweet potatoes have about 20 mins left to cook, heat the remaining 1 tbsp olive oil in a large frying pan over a medium heat. Add the onion and pepper mixture, cook for 12-15 mins, stirring often, until they go soft and start to glisten and brown, then tip onto a plate. Wipe the pan clean with some kitchen paper, add the steak and cook for 3-5 mins, stirring often. Add the onions and peppers back to the pan for a few mins before serving, then remove from the heat and stir through most of the coriander.</li>
+              <li>Mash the avocado in a bowl with a fork. Add a good pinch of salt and the rest of the coriander.</li>
+              <li>To serve, halve each sweet potato lengthways, mash the insides with a fork, then top with a spoonful of the steak fajita mixture and a dollop of mashed avocado. Enjoy!</li>
+          </td>
+            <td> <img src = {{ url_for('static', filename = 'images/baked-sweet-potato.jpg')}} width="400px"> </td>
+          </tr>
+          <tr>
+            <th scope="row">Chipotle chicken wraps</th>
+            <td>
+              <ul>
+              <li>1 tbsp vegetable oil</li>
+              <li>1 onion, finely sliced</li>
+              <li>1 garlic clove</li>
+              <li>2 chicken breasts, sliced into strips</li>
+              <li>2 tbsp chipotle paste</li>
+              <li>400g can chopped tomatoes</li>
+              <li>400g can black beans, drained</li>
+              <li>4 large corn or flour tortilla wraps</li>
+              <li>½ avocado, stoned, peeled and sliced</li>
+              <li>½ Baby Gem lettuce, shredded</li>
+              <li>1 lime, halved</li>
+            </ul>
+          </td>
+            <td>
+              <ol>
+                <li>Heat the oil in a frying pan over a low-medium heat. Toss in the onion and cook for 10 mins until softened. Crush in the garlic and stir for 1 min before adding the chicken. Turn up the heat and brown the chicken all over. Spoon over the chipotle and stir to coat for 1 min. Pour in the tomatoes and bring to the boil. Season well and reduce the heat to a gentle simmer.</li>
+                <li>Cook for 5-6 mins or until the chicken is cooked through and any excess liquid has evaporated. Stir the beans through until warmed, then remove from the heat. Warm the wraps following pack instructions.</li>
+                <li>Divide the mix between the wraps, top with the avocado and shredded lettuce, and squeeze over the lime. Roll up and cut in half before serving.</li>
+              </ol>
+            </td>
+            <td><img src = {{ url_for('static', filename = 'images/chipotle-chicken-wraps.jpg')}} width="400px"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</p>
+</body>
+</html>

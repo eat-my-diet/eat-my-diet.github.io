@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% include "header.html" %}
+<p>
+      <div class="head">
+        <div class="containeryummy" id="yummy-entrees">
+          <h2> Yummy Entrées </h2>
+          <table class="table table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Ingredients</th>
+                <th scope="col">Method</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Rockmelon bruschetta with goat's cheese and prosciutto</th>
+                <td>
+                  <ul>
+                  <li>150g goat's cheese, at room temperature</li>
+                  <li>1/2 teaspoon finely grated orange rind</li>
+                  <li>1/2 teaspoon finely grated lemon rind</li>
+                  <li>6 slices sourdough bread, chargrilled</li>
+                  <li>6 slices prosciutto</li>
+                  <li>500g rockmelon, peeled, thinly sliced lengthways</li>
+                  <li>Honey, to serve</li>
+                  <li>Fresh mint leaves, to serve</li>
+                </ul>
+              </td>
+                <td>
+                  <ol>
+                  <li>Combine the goat's cheese, orange rind and lemon rind in a bowl. Season.</li>
+                  <li>Spread goat's cheese mixture over bread. Top with prosciutto and rockmelon. Drizzle over the honey. Season with pepper and sprinkle with mint.</li>
+                </ol>
+              </td>
+                <td> <img src = {{ url_for('static', filename = 'images/rockmelon-bruschetta-with-goats-cheese-and-prosciutto-70235-1.jpeg')}} width="400px"> </td>
+              </tr>
+              <tr>
+                <th scope="row">Tomato and Mozzarella</th>
+                <td>
+                  <ul>
+                  <li>Cherry Tomatoes</li>
+                  <li>"Bite size" Mozzarella</li>
+                  <li>Basil leaves</li>
+                  <li>Olive oil</li>
+                  <li>Black pepper</li>
+                </ul>
+              </td>
+                <td>
+                  <ol>
+                    <li>Combine the ingredients</li>
+                    <li>Season with pepper and add plenty of olive oil</li>
+                  </ol>
+                </td>
+                <td><img src = {{ url_for('static', filename = 'images/cherry-tomatoes-delicious-food-7765.jpg')}} width="400px"></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+
+</p>
+</body>
+</html>

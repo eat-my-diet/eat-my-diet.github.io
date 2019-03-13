@@ -1,0 +1,157 @@
+h1 {
+    font-family: 'Amatic SC';font-size: 150px; font-weight: semibold;
+}
+h2 {
+    font-family: 'Amatic SC';font-size: 80px; font-weight: lighter;
+}
+h3 {
+    font-family: 'Amatic SC';font-size: 50px; font-weight: normal;
+}
+
+h4 {
+    font-family: 'Amatic SC';font-size: 40px; font-weight: lighter;
+}
+
+li {
+  font-family:'Aclonica';font-size: 15px; font-weight: lighter; padding: 6px;
+}
+
+.container1 {
+   overflow: hidden;
+   position: relative;
+}
+
+#your-ideas-container {
+  top: 20px;
+}
+.container1:before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+
+.container1 h1 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: black;
+}
+
+.container1 p {
+  padding: 50px;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  color: black;
+}
+.form button {
+  color: white;
+  background: #6495ED;
+  border-color: #6495ED;
+  padding: 20px;
+  align: center;
+  top: auto;
+}
+#social-buttons button{
+  color:white;
+  text-align: center;
+  padding: 10px;
+  align: center;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314775;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+}
+#mission {
+  background:#00b8e6;
+  color: #ddd;
+}
+body {
+   padding-top: 50px 0;
+   background-color: #cceeff;
+ }
+.navbar {
+  background: #ffffff;
+  text-align: right;
+          }
+
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'Aclonica';
+}
+.container1 h2 {
+              padding: 50px;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+              color: black;
+}
+
+.containeryummy h2 {
+              padding: 50px;
+              text-align: center;
+              z-index: 2;
+              position: relative;
+              color: black;
+}
+
+.container1 iframe {
+            position: relative;
+            left: 410px;
+            top: 0px;
+}
+.container3 {
+  padding: 60px;
+  z-index: 2;
+  position: relative;
+}
+
+.container3 {
+   background-image:url("{{ url_for('static', filename='images/dish-918613_960_720.jpg')}}");
+   background-size: 120%;
+   background-position: bottom;
+   position: absolute;
+   height: 850px;
+   width: 1440px;
+ }
+
+ .container5 h1 {
+     padding: 50px;
+     text-align: center;
+     z-index: 2;
+     position: relative;
+     color: black;
+     text-align: center;
+     top: 280px;
+ }
+
+ .table {
+  flex-direction: row | row-reverse | column | column-reverse;
+
+ }
+ thead {
+   font-family: 'Aclonica';
+   font-size: 20px;
+   color: #f59563;
+ }
+ th {
+   font-family: 'Aclonica';
+   font-size: 17px;
+   color: #f59563;
+ }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+{% include "header.html" %}
+<p>
+  <div class="head">
+    <div class="container1" id="students-section">
+      <h2> Students </h2>
+      <table class="table table-bordered">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Ingredients</th>
+            <th scope="col">Method</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Pasta and Pesto</th>
+            <td>
+              <ul>
+              <li>1 pack of Pasta</li>
+              <li>1 can of Pesto</li>
+              <li>Parmesan cheese to taste</li>
+              <li>Cherry Tomatoes</li>
+              <li>Basil leaves</li>
+              <li>Black pepper</li>
+              <li>Salt</li>
+            </ul>
+          </td>
+            <td>
+              <ol>
+              <li>Cook the pasta. Don't forget to add salt.</li>
+              <li>Add pesto sauce to the cooked pasta. Season with pepper and sprinkle with basil leaves and parmesan cheese</li>
+            </ol>
+          </td>
+            <td> <img src = {{ url_for('static', filename = 'images/close-up-1854245_960_720.jpg')}} width="400px"> </td>
+          </tr>
+          <tr>
+            <th scope="row">Tomato and Mozzarella</th>
+            <td>
+              <ul>
+              <li>250g long grain rice</li>
+              <li>3 tbsp vegetable oil</li>
+              <li>1 onion, finely chopped</li>
+              <li>4 eggs, beaten</li>
+              <li>2 spring onions, sliced, to serve</li>
+            </ul>
+          </td>
+            <td>
+              <ol>
+                <li>Cook the rice following pack instructions, then drain, spread it out to steam-dry and set aside.</li>
+                <li>Heat 2 tbsp of the oil in a large wok over a high heat, then add the onion and fry until lightly browned, around 5 mins. Add the rice, stir and toast for about 3 mins, then move to the side of the pan.</li>
+                <li>Add the remaining oil, then tip in the egg mixture. Leave to cook a little, then mix in with the rice – stir vigorously to coat the grains or, if you prefer the egg chunkier, allow to set for a little longer before breaking up and stirring through. Tip into a serving bowl and scatter over the spring onion to serve.</li>
+              </ol>
+            </td>
+            <td><img src = {{ url_for('static', filename = 'images/eggrice.jpg')}} width="400px"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+</p>
+</body>
+</html>
